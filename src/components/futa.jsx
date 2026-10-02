@@ -10,7 +10,7 @@ const Footer = () => {
     const textFooter = [
         {
             text: "libero, Nunc faucibus Praesent Nam eget turpis volutpat est. volutpat gravida ultrices volutpat elit elit. facilisis quam ",
-            text2: "nec orci non Nunc ac id vitae amet, lorem. Quisque Lorem tincidunt Praesent sodales. quam Cras odio malesuada faucibus non "
+            text2: "nec orci non Nunc ac id vitae amet, lorem. Quisque Lorem tincidunt Praesent sodales. quam Cras odio malesuada faucibus non jdjjeje "
         }
     ]
 
