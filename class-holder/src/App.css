@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero1 {
+    background-image: url("./assets/Group\ 1\ \(1\).png");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgColor {
+    background-color: #2F2C31;
+}
