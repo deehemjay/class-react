@@ -1,5 +1,5 @@
 import ImageComponent from "../../components/ImageComponent";
-
+import "../../App.css"
 const HeroHome = () => {
   const menu = 20;
 

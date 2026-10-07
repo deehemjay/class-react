@@ -9,7 +9,7 @@ const SectionTwoHome = () => {
     <Container className="my-4">
       <div
         style={{ backgroundColor: "#D9D9D9" }}
-        className="d-flex justify-content-between px-2 pt-4 pb-2"
+        className="d-flex justify-content-between px-2 pt-4 pb-2 pic-1"
       >
         <ImageComponent src={img} />
 

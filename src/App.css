@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .hero1 {
@@ -12,4 +12,68 @@
 
 .bgColor {
     background-color: #2F2C31;
+    justify-content: space-between;
 }
+.foot-1{
+    gap: 10px;
+}
+.foot-2{
+    gap: 10px;
+}
+.foot-3{
+    gap: 10px;
+}
+.foot-4{
+    background-color: transparent;
+    border: white 2px solid;
+    padding: 5px 20px;
+    border-radius: none;
+    
+}
+.foot-5{
+    background-color: transparent;
+    border: white 2px solid;
+    padding: 5px 50px;
+    border-radius: none;
+    margin-top: 10px;
+}
+.start-1{
+    background-color:#000000;
+    border: 2px solid;
+    border-radius:5px;
+    color: #FFFFFF;
+    padding: 2px 20px;
+}
+.up-2{  
+    border: black 2px solid;
+    padding: 5px 10px;
+    border-radius: 2px;
+    margin-top: 5px 50px;
+    background-color: transparent;
+}
+
+@media screen and (max-width:767px) {
+   *{
+    margin: 0px;
+    padding: 0px;
+   }
+    .up-1{
+    padding: 5px ;
+   }
+   .pic-1{
+    gap: 10px;
+   }
+   .bat-1{
+    display: flex;
+    flex-direction: column;
+   }
+   
+    
+   
+}
+    
+
+
+    
+
+    

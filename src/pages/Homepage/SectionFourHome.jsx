@@ -46,7 +46,7 @@ const SectionFourHome = () => {
                   index === 0 ? "#EE9C30" : index === 1 ? "#DF14D8" : "#389457",
 
               }}
-              className="d-flex flex-column align-items-center"
+              className="d-flex flex-column align-items-center mb-md-0 mb-4"
             >
               <ImageComponent src={rectangle.img} />
               <p className="text-center">{rectangle.text}</p>

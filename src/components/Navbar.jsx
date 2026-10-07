@@ -12,7 +12,7 @@ function NavScrollExample() {
         backgroundColor: "#4513FB"
     }}>
       <Container fluid>
-        <img src={img} alt="" />
+        <img src={img} alt="" className='ps-5' />
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -24,7 +24,7 @@ function NavScrollExample() {
             <Nav.Link href="#action2">About</Nav.Link>
              <Nav.Link href="#action2">Contact</Nav.Link>
               <Nav.Link href="#action2">Blog</Nav.Link>
-              <button className='ms-5'> button</button>
+              <button className='start-1'> button</button>
      
             
           </Nav>

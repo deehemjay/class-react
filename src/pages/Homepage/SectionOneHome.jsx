@@ -5,7 +5,7 @@ import image from "../../assets/wp8724545 1 (5).png";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/esm/Button";
-
+import "../../App.css"
 const SectionOneHome = () => {
   return (
     <Container className="my-5">
@@ -13,8 +13,8 @@ const SectionOneHome = () => {
         <Col md={6}>
           <ImageComponent src={image} />
         </Col>
-        <Col md={4} >
-        <h2>INFORMATION</h2>
+        <Col md={4} className="up-1 text-md-start text-center" >
+        <h2 >INFORMATION</h2>
           <p>
             sodales. ex venenatis ex. Vestibulum ullamcorper non non Nullam id
             vitae sit lacus, non Donec ex non tincidunt nisl. cursus massa quis
@@ -32,9 +32,7 @@ const SectionOneHome = () => {
             quam vel urna. Nam adipiscing venenatis varius efficitur. odio
             ultrices scelerisque non ex
           </p>
-          <Button variant="transparent">
-            CLICK FOR MORE
-          </Button>
+          <button className="up-2">click for more</button>
         </Col>
       </Row>
     </Container>
