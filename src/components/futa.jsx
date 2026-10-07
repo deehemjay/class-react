@@ -5,6 +5,7 @@ import image from "../assets/ball 8 (2).png"
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
+import { useEffect } from "react";
 
 const Footer = () => {
     const textFooter = [
@@ -13,6 +14,10 @@ const Footer = () => {
             text2: "nec orci non Nunc ac id vitae amet, lorem. Quisque Lorem tincidunt Praesent sodales. quam Cras odio malesuada faucibus non jdjjeje "
         }
     ]
+
+    useEffect(() => {
+
+    }, [])
 
 
 
