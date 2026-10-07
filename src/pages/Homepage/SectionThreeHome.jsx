@@ -10,14 +10,11 @@ const SectionThreeHome = () => {
         <Container className="my-5">
             <Row className="justify-content-between">
                 <Col md={5} >
-                <h4>Our services...</h4>
-                    <p>
+                <h4 className="text-md-start text-center ">Our services...</h4>
+                    <p className=" text-md-start text-center">
                         dui lorem. tincidunt in dignissim, efficitur. venenatis gravida vitae faucibus ultrices tincidunt quis venenatis vel Donec 
-
 Ut In Donec risus volutpat sed sollicitudin. viverra libero, libero, sit tincidunt urna. Nunc quis id adipiscing ex dolor 
-
-dui lorem. tincidunt in dignissim, efficitur. venenatis gravida vitae faucibus ultrices tincidunt quis venenatis vel Donec 
-
+dui lorem. tincidunt in dignissim, efficitur. <br /> <br /> venenatis gravida vitae faucibus ultrices tincidunt quis venenatis vel Donec 
 Ut In Donec risus volutpat sed sollicitudin. viverra libero, libero, sit tincidunt urna. Nunc quis id adipiscing ex dolor 
 
                     </p>

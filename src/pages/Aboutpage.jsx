@@ -10,11 +10,11 @@ const Aboutpage = () => {
         style={{
           backgroundColor: "black",
           color: "white",
-          padding: "5px 40px",
+          padding: "5gitpx 40px",
         }}
         className="textChange"
       />
-      <ImageComponent src={img} />
+       <ImageComponent src={img} />
     </div>
   );
 };
