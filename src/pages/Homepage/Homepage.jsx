@@ -1,5 +1,6 @@
 import Footer from "../../components/futa";
-import NavScrollExample from "../../components/Navbar";
+import FormExample from "../../components/Navbar";
+import CollapsibleExample from "../../components/Navbar";
 import HeroHome from "./HeroHome";
 import SectionFourHome from "./SectionFourHome";
 import SectionOneHome from "./SectionOneHome";
@@ -9,7 +10,9 @@ import SectionTwoHome from "./SectionTwoHome";
 const Homepage = () => {
   return (
     <div>
-      <NavScrollExample />
+      < CollapsibleExample/>
+         
+      {/* <NavScrollExample /> */}
       <HeroHome />
       <SectionOneHome />
       <SectionTwoHome/>
