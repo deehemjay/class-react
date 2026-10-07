@@ -5,7 +5,7 @@ const HeroHome = () => {
 
   return (
     <>
-      <ImageComponent src="" style={{}} classN="hero1 d-flex align-items-center "  text="Welcome to my world" hstyle={{color: "white", padding: "0% 5%"}}/>
+      <ImageComponent classN="hero1 d-flex align-items-center "  text="Welcome to my Messi" hstyle={{color: "white", padding: "0% 0%"}}/>
     </>
   );
 };
